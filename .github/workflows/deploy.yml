@@ -17,7 +17,7 @@ jobs:
       - name: Build project
         run: |
           mkdir dist
-          echo "Hello GitHub Pages" > check/check.html
+          echo "Hello GitHub Pages" > dist/index.html
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
